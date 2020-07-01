@@ -5,6 +5,15 @@ html body {
     font-family: Arial, Helvetica, sans-serif;
     color: #303846;
 }
+h1 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 2rem;
+}
+h5 {
+    font-size: 1rem;
+}
 
 .container {
     display: flex;
@@ -27,16 +36,16 @@ html body {
 header {
     position: fixed;
     width: 100%;
+    height: 150px;
     background: #fff;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
-    margin: 0;
 }
 
 #logo {
     display: inline-flex;
     align-items: center;
+    padding-left: 50px;
 }
 
 #logo img {
@@ -79,6 +88,10 @@ a:after {
     background-color: #303846;
     content: "";
     transition: width 0.3s ease-out;
+    -webkit-transition: width 0.3s ease-out;
+    -moz-transition: width 0.3s ease-out;
+    -ms-transition: width 0.3s ease-out;
+    -o-transition: width 0.3s ease-out;
 }
 
 a:hover:after,
@@ -88,4 +101,55 @@ a:focus:after {
 
 main {
     margin-top: 150px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height:82vh;
+    background: url(/images/banner.png) no-repeat;
+    background-size: 100%;
+}
+
+.section-one h5 {
+    padding: 0px;
+    margin: 0;
+    line-height: 0;
+}
+
+.text-white {
+    color:#fff;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 1rem;
+    margin: 3rem;
+    cursor: pointer;
+}
+.btn:hover {
+ background: rgb(72, 72, 250, 0.3);
+ padding: 0.5rem;
+ margin: 3.5rem;
+ border-radius: 2px;
+ transition: 1s;
+ -webkit-transition: 1s;
+ -moz-transition: 1s;
+ -ms-transition: 1s;
+ -o-transition: 1s;
+ -webkit-border-radius: 2px;
+ -moz-border-radius: 2px;
+ -ms-border-radius: 2px;
+ -o-border-radius: 2px;
 }
