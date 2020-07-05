@@ -7,35 +7,84 @@
     <link rel="stylesheet" href="/styles/style.css">
     <title>ЖК "Лунное море". frees777. </title>
 </head>
+<div class="container">
 
-<body class="h-100">
-    <div class="container h-100">
-        <header class="d-flex shadow">
-
-            <div id="logo">
-                <img src="/images/logo.svg" alt="ЖК " Лунное море"">
-                <h3>Лунное море</h3>
+    <body>
+        <header class="bg-gray fixed">
+            <div class="company d-flex">
+                <img src="/images/logo.svg" alt="ЖК Лунное море" width="110px">
+                <p class="company-name content-center d-flex">ЖК Лунное море</p>
             </div>
-
-            <nav class="p-20">
+            <nav>
                 <ul class="d-flex nav-wrap">
-                    <li class="nav-item"><a href="#">Преимущества</a></li>
-                    <li class="nav-item"><a href="#">О ЖК</a></li>
-                    <li class="nav-item"><a href="#">Места для отдыха</a></li>
+                    <li class="nav-item"><a href="#advantages">Преимущества</a></li>
+                    <li class="nav-item"><a href="#about">О ЖК</a></li>
+                    <li class="nav-item"><a href="#places">Места для отдыха</a></li>
                 </ul>
             </nav>
         </header>
+        <section class="slider content-center d-flex p-20">
+            <img src="/images/logo.svg" alt="ЖК Лунное море" width="250px">
+            <h1>ЖК Лунное море</h1>
+            <a name="advantages"></a>
+            <p>Место, откуда не хочется улетать</p>
+            <div class="btn">Забронировать</div>
+        </section>
+        <!-- <main class="d-flex content-center w-100"> ****** is main needed here????******* -->
+        <section class="content-center d-flex w-100 mt-40 mb-40">
+            <div class="content d-flex content-center">
+                <div class="desc">
+                    <h2>Уникальный вид</h2>
+                    <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться
+                        метеоритными потоками.</p>
+                </div>
+                <div class="desc">
+                    <h2>Инфраструктура</h2>
+                    <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится
+                        кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
+                    <a name="about"></a>
+                </div>
+                <div class="desc">
+                    <h2>Близость к Москве</h2>
+                    <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце
+                        России.</p>
+                </div>
+            </div>
+        </section>
 
-        <main>
-            <section class="section-one">
-                <img src="/images/logo.svg" alt="" srcset="" width="200px">
-                <h1 class="text-white">ЖК Лунное море</h1>
-                <h5 class="text-white">Место, откуда не хочется улетать</h5>
-                <div class="btn text-white"><span>Забронировать</span></div>
-            </section>
-        </main>
+        <section class="content-center d-flex w-100 bg-gray pt-40 pb-40">
+            <div class="content d-flex content-center">
+                <div class="desc d-flex column content-top-center">
+                    <h2>О ЖК Лунное море</h2>
+                    <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с
+                        мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до
+                        столицы и обратно.</p>
+                    <p class="d-flex mt-10">Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч
+                        километров от Земли.</p>
+                    <a name="places"></a>
+                </div>
+                <div class="desc d-flex content-center">
+                    <img src="/images/moon-1.jpg" alt="ЖК Лунное море" width="330px">
+                </div>
+            </div>
+        </section>
+        <section class="content-center d-flex w-100 pt-40 pb-40">
+            <div class="content d-flex content-center">
+                <div class="desc d-flex content-center">
+                    <img src="/images/moon-2.jpg" alt="ЖК Лунное море" width="330px">
+                </div>
+                <div class="desc d-flex column content-top-center">
+                    <h2>Места для отдыха</h2>
+                    <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22
+                        моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
+                    <p class="d-flex mt-10">Дома располагаются в новом районе «Лунные моря». При необходимости есть
+                        автобусы до района «Лунный материк».</p>
+                </div>
 
-    </div>
-</body>
+            </div>
+        </section>
+        <!-- </main> -->
+    </body>
+</div>
 
 </html>
