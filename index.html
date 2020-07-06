@@ -11,9 +11,9 @@
 
     <body>
         <header class="bg-gray fixed">
-            <div class="company d-flex">
+            <div class="d-flex company">
                 <img src="/images/logo.svg" alt="ЖК Лунное море" width="110px">
-                <p class="company-name content-center d-flex">ЖК Лунное море</p>
+                <p class="d-flex company-name content-center-center">ЖК Лунное море</p>
             </div>
             <nav>
                 <ul class="d-flex nav-wrap">
@@ -23,7 +23,7 @@
                 </ul>
             </nav>
         </header>
-        <section class="slider content-center d-flex p-20">
+        <section class="d-flex slider content-center-center p-20">
             <img src="/images/logo.svg" alt="ЖК Лунное море" width="250px">
             <h1>ЖК Лунное море</h1>
             <a name="advantages"></a>
@@ -31,8 +31,8 @@
             <div class="btn">Забронировать</div>
         </section>
         <!-- <main class="d-flex content-center w-100"> ****** is main needed here????******* -->
-        <section class="content-center d-flex w-100 mt-40 mb-40">
-            <div class="content d-flex content-center">
+        <section class="d-flex content-center-center w-100 mt-40 mb-40">
+            <div class="d-flex w-1000 content-start-center">
                 <div class="desc">
                     <h2>Уникальный вид</h2>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться
@@ -51,10 +51,9 @@
                 </div>
             </div>
         </section>
-
-        <section class="content-center d-flex w-100 bg-gray pt-40 pb-40">
-            <div class="content d-flex content-center">
-                <div class="desc d-flex column content-top-center">
+        <section class="d-flex content-center-center w-100 bg-gray pt-40 pb-40">
+            <div class="d-flex w-1000 content-center-center">
+                <div class="desc d-flex column">
                     <h2>О ЖК Лунное море</h2>
                     <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с
                         мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до
@@ -63,24 +62,91 @@
                         километров от Земли.</p>
                     <a name="places"></a>
                 </div>
-                <div class="desc d-flex content-center">
+                <div class="desc d-flex content-center-center">
                     <img src="/images/moon-1.jpg" alt="ЖК Лунное море" width="330px">
                 </div>
             </div>
         </section>
-        <section class="content-center d-flex w-100 pt-40 pb-40">
-            <div class="content d-flex content-center">
-                <div class="desc d-flex content-center">
+        <section class="d-flex content-center-center w-100 pt-40 pb-40">
+            <div class="d-flex w-1000 content-center-center">
+                <div class="desc d-flex content-center-center">
                     <img src="/images/moon-2.jpg" alt="ЖК Лунное море" width="330px">
                 </div>
-                <div class="desc d-flex column content-top-center">
+                <div class="desc d-flex column">
                     <h2>Места для отдыха</h2>
                     <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22
                         моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
                     <p class="d-flex mt-10">Дома располагаются в новом районе «Лунные моря». При необходимости есть
                         автобусы до района «Лунный материк».</p>
                 </div>
-
+            </div>
+        </section>
+        <section class="d-flex content-center-center bg-gray pt-40 pb-40 w-100">
+            <div class="d-flex w-1000 content-center-center column">
+                <h2>Оставьте заявку сегодня!</h2>
+                <div class="d-flex content-center-center">
+                    <form action="">
+                        <fieldset>
+                            <legend>
+                                <h3>Параметры квартиры</h3>
+                            </legend>
+                            <div class="form w-300">
+                                <div>
+                                    <h5 class="p-20">Количество комнат:</h5>
+                                </div>
+                                <div>
+                                    <select name="" id="">
+                                        <option value="">1 комната</option>
+                                        <option value="">5 комнат</option>
+                                        <option value="">10 комнат</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form w-300">
+                                <div>
+                                    <h5 class="p-20">Отделка:</h5>
+                                </div>
+                                <div>
+                                    <select name="" id="">
+                                        <option value="">Без отделки</option>
+                                        <option value="">Стандарт</option>
+                                        <option value="">Супер люкс</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>
+                                <h3>Контактная информация</h3>
+                            </legend>
+                            <div class="form w-300">
+                                <div>
+                                    <h5 class="p-20">Имя:</h5>
+                                </div>
+                                <div>
+                                    <input type="text" name="name" placeholder="Ваше имя">
+                                </div>
+                            </div>
+                            <div class="form w-300">
+                                <div>
+                                    <h5 class="p-20">Телефон:</h5>
+                                </div>
+                                <div>
+                                    <input type="text" name="tel" placeholder="Ваш телефон">
+                                </div>
+                            </div>
+                            <div class="form w-300">
+                                <div>
+                                    <h5 class="p-20">E-mail:</h5>
+                                </div>
+                                <div>
+                                    <input type="text" name="email" placeholder="Ваш e-mail">
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="btn">Отправить</div>
+                    </form>
+                </div>
             </div>
         </section>
         <!-- </main> -->
