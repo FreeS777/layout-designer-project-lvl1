@@ -10,7 +10,7 @@ html body {
     position: fixed;
 }
 
-.w-100 {
+.w-full {
     width: 100%;
 }
 
@@ -22,32 +22,16 @@ html body {
     width: 1000px;
 }
 
-.p-10 {
-    padding: 10px;
-}
-
 .p-20 {
     padding: 20px;
 }
 
-.m-0 {
-    margin: 0;
-}
-
-.m-10 {
-    margin: 10px;
+.p-40 {
+    padding: 40px;
 }
 
 .m-20 {
     margin: 20px;
-}
-
-.pt-10 {
-    padding-top: 10px;
-}
-
-.pb-10 {
-    padding-bottom: 10px;
 }
 
 .pt-20 {
@@ -95,6 +79,11 @@ input {
     align-items: center;
 }
 
+.content-center-sbetween {
+    align-items: center;
+    justify-content: space-between;
+}
+
 .content-start-center {
     justify-content: center;
     align-items: flex-start;
@@ -108,10 +97,26 @@ input {
     flex-direction: column;
 }
 
+.company {
+    justify-content: space-around;
+}
+
 .company-name {
     font-size: 30px;
     font-weight: 800;
     padding-left: 20px;
+}
+
+.company-name-footer {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.copyright {
+    font-size: 10px;
+    color: gray;
 }
 
 .container {
@@ -158,11 +163,10 @@ form .btn {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.2)
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2)
 }
 
 form .btn:hover {
-    /* border: 1px solid #2DD8B7; */
     background: #2DD8B7;
     box-shadow: none;
     margin-top: 10px;
@@ -176,6 +180,10 @@ form .btn:hover {
     background: #f7f7f7;
 }
 
+.bg-dark {
+    background: #303846;
+}
+
 header {
     display: flex;
     padding: 20px;
@@ -184,10 +192,6 @@ header {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-}
-
-.company {
-    justify-content: space-around;
 }
 
 .nav-wrap {
@@ -270,10 +274,12 @@ header {
     padding: 5px 20px;
     margin: 0;
 }
+
 .form h5 {
     padding: 0;
     margin: 0;
 }
+
 .form h2 {
     color: #2DD8B7;
 }
@@ -284,4 +290,18 @@ fieldset {
 
 fieldset h3 {
     color: #2DD8B7;
+}
+
+footer h3 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    color: #fff;
+}
+
+footer p {
+    font-size: 12px;
 }
