@@ -30,18 +30,6 @@ html body {
     padding: 40px;
 }
 
-.m-20 {
-    margin: 20px;
-}
-
-.pt-20 {
-    padding-top: 20px;
-}
-
-.pb-20 {
-    padding-bottom: 20px;
-}
-
 .pt-40 {
     padding-top: 40px;
 }
@@ -52,10 +40,6 @@ html body {
 
 .mt-10 {
     margin-top: 10px;
-}
-
-.mt-20 {
-    margin-top: 20px;
 }
 
 .mt-40 {
@@ -152,6 +136,10 @@ input {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     margin: 0;
+}
+.btn a {
+    text-decoration: none;
+    color: #fff;
 }
 
 form .btn {

@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="/styles/style.css">
     <title>ЖК "Лунное море". frees777. </title>
 </head>
-<div class="container">
-
     <body>
+        <div class="container">
         <header class="bg-gray fixed">
             <div class="d-flex company">
-                <img src="/images/logo.svg" alt="ЖК Лунное море" width="110px">
+                <img src="/images/logo.svg" alt="ЖК Лунное море" width="110">
                 <p class="d-flex company-name content-center-center">ЖК Лунное море</p>
             </div>
             <nav>
@@ -24,11 +23,11 @@
             </nav>
         </header>
         <section class="d-flex slider content-center-center p-20">
-            <img src="/images/logo.svg" alt="ЖК Лунное море" width="250px">
-            <h1>ЖК Лунное море</h1>
-            <a name="advantages"></a>
+            <img src="/images/logo.svg" alt="ЖК Лунное море" width="250">
+            <h1 id="advantages">ЖК Лунное море</h1>
+            
             <p>Место, откуда не хочется улетать</p>
-            <div class="btn">Забронировать</div>
+            <div class="btn"><a href="#order">Забронировать</a></div>
         </section>
         <!-- <main class="d-flex content-center w-full"> ****** is main needed here????******* -->
         <section class="d-flex content-center-center w-full mt-40 mb-40">
@@ -40,10 +39,9 @@
                 </div>
                 <div class="desc">
                     <h2>Инфраструктура</h2>
-                    <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится
+                    <p id="about">Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится
                         кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
-                    <a name="about"></a>
-                </div>
+                               </div>
                 <div class="desc">
                     <h2>Близость к Москве</h2>
                     <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце
@@ -58,19 +56,18 @@
                     <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с
                         мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до
                         столицы и обратно.</p>
-                    <p class="d-flex mt-10">Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч
+                    <p class="d-flex mt-10" id="places">Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч
                         километров от Земли.</p>
-                    <a name="places"></a>
-                </div>
+               </div>
                 <div class="desc d-flex content-center-center">
-                    <img src="/images/moon-1.jpg" alt="ЖК Лунное море" width="330px">
+                    <img src="/images/moon-1.jpg" alt="ЖК Лунное море" width="330">
                 </div>
             </div>
         </section>
         <section class="d-flex content-center-center w-full pt-40 pb-40">
             <div class="d-flex w-1000 content-center-center">
                 <div class="desc d-flex content-center-center">
-                    <img src="/images/moon-2.jpg" alt="ЖК Лунное море" width="330px">
+                    <img src="/images/moon-2.jpg" alt="ЖК Лунное море" width="330">
                 </div>
                 <div class="desc d-flex column">
                     <h2>Места для отдыха</h2>
@@ -85,7 +82,7 @@
             <div class="d-flex w-1000 content-center-center column">
                 <h2>Оставьте заявку сегодня!</h2>
                 <div class="d-flex content-center-center">
-                    <form action="">
+                    <form action="#">
                         <fieldset>
                             <legend>
                                 <h3>Параметры квартиры</h3>
@@ -95,7 +92,7 @@
                                     <h5 class="p-20">Количество комнат:</h5>
                                 </div>
                                 <div>
-                                    <select name="" id="">
+                                    <select name="rooms" id="rooms">
                                         <option value="">1 комната</option>
                                         <option value="">5 комнат</option>
                                         <option value="">10 комнат</option>
@@ -107,7 +104,7 @@
                                     <h5 class="p-20">Отделка:</h5>
                                 </div>
                                 <div>
-                                    <select name="" id="">
+                                    <select name="finish" id="finish">
                                         <option value="">Без отделки</option>
                                         <option value="">Стандарт</option>
                                         <option value="">Супер люкс</option>
@@ -144,7 +141,7 @@
                                 </div>
                             </div>
                         </fieldset>
-                        <div class="btn">Отправить</div>
+                        <div class="btn" id="order">Отправить</div>
                     </form>
                 </div>
             </div>
@@ -153,10 +150,10 @@
             <div class="d-flex w-1000 content-center-sbetween p-40 space">
                 <div class="d-flex column">
                     <div class="d-flex company">
-                        <img src="/images/logo.svg" alt="ЖК Лунное море" width="40px">
+                        <img src="/images/logo.svg" alt="ЖК Лунное море" width="40">
                         <p class="d-flex company-name-footer content-center-center">Лунное море</p>
                     </div>
-                    <p class="copyright">&copy 2032 год</p>
+                    <p class="copyright">&copy; 2032 год</p>
                 </div>
                 <div class="d-flex column ">
                     <div><h3 class="d-flex">Проектная документация</h3></div>
@@ -178,8 +175,9 @@
                 </div>
             </div>
         </footer>
+    </div>
         <!-- </main> -->
     </body>
-</div>
+
 
 </html>
