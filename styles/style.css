@@ -22,10 +22,15 @@ h5 {
 .header {
     display: flex;
     width: 100%;
-    position: fixed;
     padding: 5px 10px;
     align-items: center;
     justify-content: space-between;
+}
+
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .header img {
@@ -36,7 +41,7 @@ h5 {
     font-weight: 800;
 }
 
-.mb-30 {
+.mb-20 {
     margin-bottom: 20px;
 }
 
@@ -87,7 +92,7 @@ h5 {
     width: 100%;
 }
 
-.slider {
+.title-img {
     padding-top: 50px;
     display: flex;
     justify-content: center;
@@ -95,36 +100,40 @@ h5 {
     background-size: cover;
 }
 
-.slider img {
+.title-img img {
     width: 150px;
 }
 
-.slider h1 {
+.title-img h1 {
     color: #fff;
     font-weight: 800;
     font-size: 45px;
 }
 
-.slider a {
+.title-img a {
     text-decoration: none;
     color: #fff;
 }
 
+.title-img p {
+    color: #fff;
+    padding: 0 !important;
+    font-weight: 600;
+}
+
 .btn {
-    border: 2px solid white;
+    text-decoration: none;
     border-radius: 7px;
     -webkit-border-radius: 7px;
     -moz-border-radius: 7px;
     -ms-border-radius: 7px;
     -o-border-radius: 7px;
-    padding: 10px;
-    margin-top: 25px;
+    padding: 10px 25px;
     cursor: pointer;
     font-weight: bold;
 }
 
 .btn:hover {
-    background: rgb(72, 72, 250, 0.3);
     border-radius: 10px;
     transition: 1s;
     -webkit-transition: 1s;
@@ -137,20 +146,31 @@ h5 {
     -o-border-radius: 10px;
 }
 
+.btn-white {
+    border: 2px solid white;
+    /* padding: 10px 25px; */
+}
+
+.btn-white:hover {
+    background: rgb(72, 72, 250, 0.3);
+}
+
+.btn-green {
+    border: 2px solid #2BD8B6;
+    color: #2BD8B6;
+    /* padding: 10px 25px; */
+}
+
+.btn-green:hover {
+    color: #303846;
+    background: #2BD8B6;
+}
+
 .container {
     display: flex;
     max-width: 1000px;
     padding: 50px 0;
-}
-
-.margin-auto {
     margin: 0 auto;
-}
-
-.slider>.container p {
-    color: #fff;
-    padding: 10px 0;
-    font-weight: 600;
 }
 
 .container p {
@@ -163,8 +183,7 @@ h5 {
 }
 
 .desc {
-    max-width: 500px;
-    min-width: 300px;
+    width: 500px;
     padding: 15px;
 }
 
@@ -199,18 +218,6 @@ div.form {
 
 .order {
     padding-top: 25px;
-}
-
-.order>.btn {
-    border: 2px solid #2BD8B6;
-    text-decoration: none;
-    color: #2BD8B6;
-    padding: 10px 25px;
-}
-
-.order>.btn:hover {
-    color: #303846;
-    background: #2BD8B6;
 }
 
 .footer {
@@ -254,15 +261,15 @@ div.form {
     display: flex;
 }
 
-.y-center {
+.align-items-center {
     align-items: center;
 }
 
-.x-center {
+.justify-content-center {
     justify-content: center;
 }
 
-.x-around {
+.justify-content-around {
     justify-content: space-around;
 }
 

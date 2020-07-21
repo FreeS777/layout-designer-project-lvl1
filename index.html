@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <header class="header bg-white">
-        <div class="d-flex y-center">
+    <header class="header header-fixed bg-white">
+        <div class="d-flex align-items-center">
             <img src="/images/logo.svg" alt="ЖК Лунное море" width="40">
             <p>ЖК Лунное море</p>
         </div>
@@ -23,16 +23,16 @@
         </nav>
     </header>
     <main>
-        <section class="slider">
-            <div class="container column y-center">
+        <section class="title-img">
+            <div class="container column align-items-center">
                 <img src="/images/logo.svg" alt="ЖК Лунное море">
-                <h1 id="advantages">ЖК «Лунное море»</h1>
-                <p>Место, откуда не хочется улетать</p>
-                <a href="#order" class="btn">Забронировать</a>
+                <h1>ЖК «Лунное море»</h1>
+                <p class="mb-20">Место, откуда не хочется улетать</p>
+                <a href="#order" class="btn btn-white">Забронировать</a>
             </div>
         </section>
-        <section class="bg-white">
-            <div class="container x-around margin-auto">
+        <section class="bg-white" id="advantages">
+            <div class="container justify-content-around">
                 <div class="desc">
                     <h2>Уникальный вид</h2>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться
@@ -52,7 +52,7 @@
             </div>
         </section>
         <section class="bg-gray">
-            <div class="container x-around margin-auto">
+            <div class="container justify-content-around">
                 <div class="desc d-flex column">
                     <h2>О ЖК «Лунное море»</h2>
                     <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с
@@ -65,7 +65,7 @@
             </div>
         </section>
         <section class="bg-white">
-            <div class="container x-around margin-auto">
+            <div class="container justify-content-around">
                 <img class="d-flex" src="/images/moon-2.jpg" alt="ЖК Лунное море" width="330">
                 <div class="desc d-flex column">
                     <h2>Места для отдыха</h2>
@@ -77,7 +77,7 @@
             </div>
         </section>
         <section class="bg-gray">
-            <div class="container x-center margin-auto ">
+            <div class="container justify-content-center">
                 <div class="form-wrap">
                     <h2 class="pb-30">Оставьте заявку сегодня!</h2>
                     <form action="#">
@@ -140,7 +140,7 @@
                             </div>
                         </fieldset>
                         <div class="order pb-30">
-                            <a href="#" class="btn" id="order">Отправить</a>
+                            <a href="#" class="btn btn-green" id="order">Отправить</a>
                         </div>
                     </form>
                 </div>
