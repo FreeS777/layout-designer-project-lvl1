@@ -4,6 +4,9 @@
     --bg-secondary: #f7f7f7;
     --bg-footer: #303846;
 }
+body {
+    background: #fff;
+}
 
 html,
 body,
@@ -55,16 +58,20 @@ h1 {
     font-weight: 800;
 }
 
+.w-300{
+    width: 300px;
+}
+
+.w-500 {
+    width: 500px;
+}
+
 .mb-20 {
     margin-bottom: 20px;
 }
 
 .pb-30 {
     padding-bottom: 30px;
-}
-
-.pr-30 {
-    padding-right: 30px;
 }
 
 .pt-30 {
@@ -159,7 +166,6 @@ h1 {
 
 .btn-white {
     border: 2px solid white;
-    /* padding: 10px 25px; */
 }
 
 .btn-white:hover {
@@ -169,7 +175,6 @@ h1 {
 .btn-green {
     border: 2px solid #2BD8B6;
     color: #2BD8B6;
-    /* padding: 10px 25px; */
 }
 
 .btn-green:hover {
@@ -193,18 +198,6 @@ h1 {
     justify-content: space-between;
 }
 
-.desc {
-    width: 300px;
-    padding: 15px;
-}
-
-.about .desc {
-    width: 500px !important;
-}
-
-.places .desc {
-    width: 500px !important;
-}
 .form {
     display: flex;
     width: 330px;
